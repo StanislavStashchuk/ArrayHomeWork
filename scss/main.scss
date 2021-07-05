@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    font-family: 'Yomogi', cursive;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0f0f0f;
+}
+
+.app {
+    width: 70%;
+    background-color: #290909;
+    color: floralwhite;
+    margin: 0 auto;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        margin: 0 auto;
+    }
+    h2 {
+        margin: 0 auto;
+    }
+}
+
+.first{
+    margin: 0 auto;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    h3 {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  font-family: 'Yomogi', cursive;
+  height: 100vh;
+  width: 100vw;
+  background-color: #0f0f0f;
+}
+
+.app {
+  width: 70%;
+  background-color: #290909;
+  color: floralwhite;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.title {
+  padding-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.title h1 {
+  margin: 0 auto;
+}
+
+.title h2 {
+  margin: 0 auto;
+}
+
+.first {
+  margin: 0 auto;
+  padding-top: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 15px;
+}
+
+.footer h3 {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
