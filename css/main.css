@@ -1,10 +1,11 @@
 * {
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   padding: 0;
-  font-family: 'Yomogi', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   height: 100vh;
   width: 100vw;
   background-color: #0f0f0f;
@@ -49,5 +50,21 @@ body {
 
 .signature h3 {
   margin: 0 auto;
+}
+
+main .sort-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 450 px;
+  margin: 30px auto;
+}
+
+main .sort-options button {
+  flex: 1 1 33%;
+  appearance: none;
+  background-color: #ffce00;
+  border: none;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=main.css.map */
