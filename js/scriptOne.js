@@ -19,8 +19,30 @@ console.log(sortedList2);
 //  Функція додавання покупок в список. Врахуйте, що при додаванні позиції з вже існуючим в списку продуктом, необхідно просто збільшити 
 // кількість, а не додавати нову позицію
 
+function addToShoppingList(item , shoppingList) {
+    let found = shoppingList.find((i) => i.name === item.name);
+    if (found) {
+        found.count += item.count;
+    } else { shoppingList.push(item);
 
+    }
+    console.log(found);
+}
 
+const five = {
+    name: 'Five',
+    count: 50,
+    done: 0,
+};
+
+const six = {
+    name: 'Six',
+    count: 10,
+    done: 1,
+};
+
+addToShoppingList(five, shoppingList);
+addToShoppingList(six, shoppingList);
 
 
 //  Купівля продукту. Функція приймає назву продукту та відмічає його як придбаний.
