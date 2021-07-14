@@ -66,5 +66,11 @@ main .sort-options button {
   background-color: #ffce00;
   border: none;
   border-radius: 5px;
+  outline: none;
+  padding: 15px 1px;
+  margin: 0px 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
