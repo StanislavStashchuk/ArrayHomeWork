@@ -73,4 +73,14 @@ main .sort-options button {
   font-weight: 700;
   cursor: pointer;
 }
+
+main .sort-options .list-headers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 450 px;
+  margin: 30px auto;
+  padding: 0px 15px;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=main.css.map */
