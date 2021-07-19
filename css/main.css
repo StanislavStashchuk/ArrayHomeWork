@@ -21,7 +21,7 @@ body {
 }
 
 .title {
-  padding-top: 150px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
 }
@@ -57,7 +57,7 @@ main .sort-options {
   justify-content: space-between;
   width: 100%;
   max-width: 450 px;
-  margin: 30px auto;
+  margin: 30px auto 0px;
 }
 
 main .sort-options button {
@@ -67,6 +67,7 @@ main .sort-options button {
   border: none;
   border-radius: 5px;
   outline: none;
+  font-family: 'Didact Gothic', sans-serif;
   padding: 15px 1px;
   margin: 0px 8px;
   font-size: 16px;
@@ -74,13 +75,28 @@ main .sort-options button {
   cursor: pointer;
 }
 
-main .sort-options .list-headers {
+main .list-headers {
   display: flex;
   justify-content: space-between;
   width: 100%;
   max-width: 450 px;
-  margin: 30px auto;
   padding: 0px 15px;
   text-transform: uppercase;
+}
+
+main .list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main .list .list-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0px 15px;
+  text-transform: uppercase;
+  padding: 30px;
+  border: 2px solid white;
+  border-radius: 8px;
 }
 /*# sourceMappingURL=main.css.map */
