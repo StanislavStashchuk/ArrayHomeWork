@@ -21,7 +21,7 @@ body {
 }
 
 .title {
-    padding-top: 150px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     h1 {
@@ -55,7 +55,7 @@ main {
         justify-content: space-between;
         width: 100%;
         max-width: 450 px;
-        margin: 30px auto;
+        margin: 30px auto 0px;
 
         button {
             flex: 1 1 33%;
@@ -64,7 +64,7 @@ main {
             border: none;
             border-radius: 5px;
             outline: none;
-
+            font-family: 'Didact Gothic', sans-serif;
             padding: 15px 1px;
             margin: 0px 8px;
             font-size: 16px;
@@ -72,14 +72,29 @@ main {
             cursor: pointer;
         }
 
-        .list-headers {
+    }
+    .list-headers {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 450 px;
+        padding: 0px 15px;
+        text-transform: uppercase;
+    }
+
+    .list {
+        //display: block;
+        width: 100%;
+        margin: 0 auto;
+        .list-item {
             display: flex;
             justify-content: space-between;
             width: 100%;
-            max-width: 450 px;
-            margin: 30px auto;
             padding: 0px 15px;
             text-transform: uppercase;
+            padding: 30px;
+            border: 2px solid white;
+            border-radius: 8px;
         }
     }
 
